@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# React Redux Social Meadia app
 
-## Getting Started
+<div align="center">
+  <div>
+    <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextdotjs" />
+    <img src="https://img.shields.io/badge/-GenerativeAI-black?style=for-the-badge&logoColor=white&logo=generativeai&color=06B6D4" alt="generativeai" />
+    <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
+    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
+  </div>
+</div>
 
-First, run the development server:
+## Table of Contents
+
+- [Setup Instructions](#setup-instructions)
+
+## <a name="tech-stack">⚙️ Tech Stack</a>
+
+- Next.js
+- Google Generative AI
+- TypeScript
+- TailwindCSS
+
+## <a name="quick-start">🤸 Quick Start</a>
+
+Follow these steps to set up the project locally on your machine.
+**Prerequisites**
+
+Make sure you have the following installed on your machine:
+
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en)
+- [pnpm](https://www.pnpm.io/) (Node Package Manager)
+
+**Cloning the Repository**
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/Aftab3008/ai-resume-checker.git
+cd ai-resume-checker
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Installation**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Install the project dependencies using pnpm:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+pnpm install
+```
 
-## Learn More
+**Environment Variables**
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+PINECONE_API_KEY=
+PINECONE_INDEX_NAME=
+GOOGLE_API_KEY=
+NEXT_PUBLIC_API_URL=
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Running the Project**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+pnpm run dev
+```
 
-## Deploy on Vercel
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## <a name="footer">📞 Contact Us</a>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<div align="center" style="margin-top: 40px; font-family: 'Arial', sans-serif; background-color: #f8f9fa; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);">
+  <h2 style="font-size: 24px; color: #333;">Get in Touch</h2>
+  <p style="font-size: 18px; color: #333;">
+    Email: <a href="mailto:shaikaftab005@gmail.com" style="color: #0077B5; text-decoration: none; font-weight: bold;">shaikaftab005@gmail.com</a><br>
+  </p>
+  <div style="margin-top: 20px;">
+    <a href="https://x.com/shaikaf70807885" target="_blank" style="margin-right: 10px;">
+      <img src="https://img.shields.io/badge/-Twitter-black?style=for-the-badge&logo=twitter&logoColor=1DA1F2" alt="Twitter" />
+    </a>
+    <a href="https://www.linkedin.com/in/aftab-shaik-907921256/" target="_blank" style="margin-right: 10px;">
+      <img src="https://img.shields.io/badge/-LinkedIn-black?style=for-the-badge&logo=linkedin&logoColor=0077B5" alt="LinkedIn" />
+    </a>
+    <a href="https://github.com/Aftab3008" target="_blank">
+      <img src="https://img.shields.io/badge/-GitHub-black?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    </a>
+  </div>
+</div>
