@@ -1,5 +1,4 @@
-import { MAX_FILE_SIZE, ACCEPTED_FILE_TYPES } from "@/constants";
-import exp from "constants";
+import { ACCEPTED_FILE_TYPES, MAX_FILE_SIZE } from "@/constants";
 import { z } from "zod";
 
 export const formSchema = z.object({
