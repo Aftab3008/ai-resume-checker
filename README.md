@@ -1,4 +1,6 @@
-# React Redux Social Meadia app
+# Nextjs AI Resume Parser
+
+This is a Nextjs AI resume parser which automatically extract the skills,experience and education from resume or can be provided manually by the user
 
 <div align="center">
   <div>
